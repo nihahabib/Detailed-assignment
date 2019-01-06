@@ -438,7 +438,7 @@ def partition(names):
     return[firstname for firstname in names
            if firstname[0].lower() in 'abcdefghijklm']
 
-x = partition(['Sarim','Zuhair','Jawad','Hasan','Abdullah'])
+x = partition(['Yumna','Amna','Warisha','Yusra','Asma'])
 x.sort()
 print(*x,sep = '\n')
 
@@ -446,7 +446,7 @@ PRACTICE PROBLEM 3.41
 def lastF(F_name,L_name):
     return (L_name,F_name[0])
 
-name = lastF('Sarim','Khan')
+name = lastF('Niha','Habib')
 print(name)
 
 PRACTICE PROBLEM 3.42
